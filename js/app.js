@@ -85,10 +85,11 @@ let myAge = 36
 // console.log(typeof questionSix)
 for(let i= 0; i < 4; i++){
     questionSix = parseInt(prompt('How old am I?'));
+    // could put a + infront of variable instead of parseInt
     if(questionSix === myAge){ 
         alert(`You are correct.`)
         score++;
-    console.log(score);
+        console.log(score);
         break
     }else if(questionSix < myAge){
         alert(`Wrong Answer, go higher.`)
@@ -109,10 +110,10 @@ for(let i= 0; i < 6; i++){
             alert(`Correct. The Force is strong with you.`)
             score++;
             console.log(score);
+            i=6
             break
             }
     }
-    break
 }
 
 alert(`Your options were Obi-Wan or Qui-Gon.`)

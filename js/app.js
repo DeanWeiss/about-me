@@ -6,6 +6,8 @@ alert (`Welcome ${siteVisitor}, let's play a guessing game. Please answer yes or
 
 let score = 0;
 
+function q1(){
+
 let questionOne = prompt ('Do I have any children?').toLowerCase();
 
 if(questionOne === 'no' || questionOne === 'n'){
@@ -20,6 +22,12 @@ if(questionOne === 'no' || questionOne === 'n'){
     //console.log(`Please answer with a valid response!`)
     Alert('Please answer with a valid response!');
 }
+
+}
+
+q1();
+
+function q2(){
 
 let questionTwo = prompt ('Am I in the military?').toLowerCase();
 
@@ -36,6 +44,12 @@ if(questionTwo === 'yes' || questionTwo === 'y'){
     Alert('Please answer with a valid response!');
 }
 
+}
+
+q2();
+
+function q3(){
+
 let questionThree = prompt ('Is my favorite football team is the Seattle Seahawks?').toLowerCase();
 
 if(questionThree === 'no' || questionThree === 'n'){
@@ -50,6 +64,12 @@ if(questionThree === 'no' || questionThree === 'n'){
     //console.log(`Please answer with a valid response!`)
     Alert('Please answer with a valid response!');
 }
+
+}
+
+q3();
+
+function q4(){
 
 let questionFour = prompt ('Do I have a dog?').toLowerCase();
 
@@ -66,6 +86,12 @@ if(questionFour === 'yes' || questionFour === 'y'){
     Alert('Please answer with a valid response!');
 }
 
+}
+
+q4();
+
+function q5(){
+
 let questionFive = prompt ('Have I ever broken a bone in my body?').toLowerCase();
 
 if(questionFive === 'no' || questionFive === 'n'){
@@ -80,6 +106,13 @@ if(questionFive === 'no' || questionFive === 'n'){
     //console.log(`Please answer with a valid response!`)
     Alert('Please answer with a valid response!');
 }
+
+}
+
+q5();
+
+function q6(){
+
 let questionSix
 let myAge = 36
 // console.log(typeof questionSix)
@@ -101,6 +134,11 @@ if (questionSix != myAge){
     alert(`You are bad at this, I am 36.`)
 }
 // TA David Hecker assisted me with the code from line 71 to 86
+}
+
+q6();
+
+function q7(){
 
 for(let i= 0; i < 6; i++){
     let questionSeven = prompt(`In Star Wars: Episode 1 - The Phanton Menace, Give me the first name of one of the two Jedi sent to negotiate with the Trade Federation at the blockade of Naboo.`).toLowerCase();
@@ -115,6 +153,10 @@ for(let i= 0; i < 6; i++){
             }
     }
 }
+
+}
+
+q7();
 
 alert(`Your options were Obi-Wan or Qui-Gon.`)
 alert(`Congratulations ${siteVisitor}, your score is ${score} out of 7.`); 

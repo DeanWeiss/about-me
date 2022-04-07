@@ -1,4 +1,49 @@
-# about-me
+# About Me Lab
 
-## Lab 1
-- This is a lab About Me.
+## Lab 01
+
+This lab includes an "About Me" guessing game.
+
+### Author:
+
+### Links & Resources
+
+-
+
+### Reflections and Comments
+
+-
+
+---
+
+## Lab 02
+
+-
+
+### Author:
+
+### Links & Resources
+
+-
+
+### Reflections and Comments
+
+-
+
+---
+
+## Lab 03
+
+-
+
+### Author: Navigator Dean Weiss & Driver Dylan Ullrich
+
+### Links & Resources
+
+-
+
+### Reflections and Comments
+
+-
+
+---
